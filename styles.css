@@ -109,7 +109,7 @@ h2 {
 
 .brands {
     display: flex;
- 
+    font-size: 22px;
     justify-content: space-between;
     align-items: center;
    
@@ -152,6 +152,7 @@ h2 {
 
 .call div p{
     text-align: left;
+    font-size: 20px;
 }
 
 .call button{
