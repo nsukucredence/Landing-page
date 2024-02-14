@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.link   {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 ul img{
     height: 100px;
     width: 100%;
