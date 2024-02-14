@@ -1,0 +1,164 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul img{
+    height: 100px;
+    width: 100%;
+}
+
+.nav .img {
+    height: 50px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html, body {
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    min-width: 900px;
+    border: 1px solid blue;
+   
+    
+}
+
+.nav {
+    display: flex;
+   width: auto;
+    
+    justify-content: center;
+    background-color: #1F2937; 
+    color: #E5E7EB;
+    height: 100px;
+   
+}
+ .nav > div {
+
+    padding: 10px 20px;
+ }
+
+
+.search {
+    margin-left:auto;
+}
+
+.about {
+    margin-right: 200px;
+}
+.introduction{
+    display: flex;
+ 
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937; 
+    align-items: center;
+    padding: 70px;
+    height: 300px;
+    width: auto;
+
+}
+
+
+.introduction img {
+    width: 230px;
+    height: auto;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.introduction p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.brands {
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+   
+    gap: 10px;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.brands li img {
+    height: 110px;
+    min-width: 185px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    margin: 25px;
+    border-radius: 20px;
+   
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #E5E7EB;
+    justify-content: center;
+}
+
+.call #action {
+    font-size: 28px;
+}
+
+.call div p{
+    text-align: left;
+}
+
+.call button{
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    width: 100px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
