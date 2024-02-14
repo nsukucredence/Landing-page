@@ -25,7 +25,7 @@ html, body {
     height: 100%;
     width: 70%;
     min-width: 900px;
-    border: 1px solid blue;
+    
    
     
 }
@@ -59,7 +59,7 @@ input{
 }
 
 .about {
-    margin-right: 200px;
+    margin-right: 50px;
 }
 .introduction{
     display: flex;
