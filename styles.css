@@ -40,6 +40,14 @@ html, body {
     height: 100px;
    
 }
+
+input{
+    background-color: #1F2937;
+    text-align: center;
+    padding-left: auto;
+    border: none;
+    border-bottom: 1px solid #3882F6;
+}
  .nav > div {
 
     padding: 10px 20px;
